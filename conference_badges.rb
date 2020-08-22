@@ -13,5 +13,7 @@ def batch_badge_creator(badge_name)
 end
 
 def assign_rooms(speaker_room)
-  
+  counter = 1
+  speaker_room.each do |speaker|
+    puts "Hello, #{speaker}! You'll be assigned to room #{counter}
 end
