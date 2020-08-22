@@ -14,9 +14,11 @@ end
 
 def assign_rooms(speaker_room)
   counter = 1
+  assignment = []
   speaker_room.each do |speaker|
     speaker_assignment =  "Hello, #{speaker}! You'll be assigned to room #{counter}!"
+    assignment.push(speaker_assignment)
     counter +=1 
   end
-  return speaker_assignment
+  return assignment
 end
