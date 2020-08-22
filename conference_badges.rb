@@ -15,5 +15,7 @@ end
 def assign_rooms(speaker_room)
   counter = 1
   speaker_room.each do |speaker|
-    puts "Hello, #{speaker}! You'll be assigned to room #{counter}
+    puts "Hello, #{speaker}! You'll be assigned to room #{counter}!"
+    counter +=1 
+  end
 end
