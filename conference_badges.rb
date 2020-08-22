@@ -24,6 +24,7 @@ def assign_rooms(speakers)
 end
 
 def printer(the_greeting)
+  
 end
 
 
